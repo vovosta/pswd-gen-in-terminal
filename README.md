@@ -8,6 +8,18 @@ The goal of this project is to improve my C++ programming skills by progressivel
 
 Coming soon.
 
+## Run
+
+To run the project you must compile in the root file of the project with the following command : 
+``
+g++ -Wall -Wextra -std=c++17 main.cpp options.cpp password.cpp -o password-gen
+``
+
+Then you can run the application with :
+``
+./password-gen
+``
+
 ## Project Roadmap
 
 ### Step 1 — Basic Password Generator
