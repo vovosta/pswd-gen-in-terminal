@@ -9,7 +9,7 @@ Options ask_options(){
 	char u_uppercase;
 	char u_numbers;
 	char u_special;
-	std::cout << "We'll ask you some question for the parameter of the password : " << '\n';
+	std::cout << "We'll ask you some questions for the parameters of the password : " << '\n';
 	std::cout << "What length do you want ? (How many characters) : ";
 	std::cin >> length;
 	config.length = length;

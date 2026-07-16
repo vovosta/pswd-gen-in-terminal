@@ -6,7 +6,12 @@ The goal of this project is to improve my C++ programming skills by progressivel
 
 ## Current features available
 
-Coming soon.
+* Random password generation
+* Configurable password length
+* Optional uppercase letters
+* Optional lowercase letters
+* Optional numbers
+* Optional special characters
 
 ## Run
 

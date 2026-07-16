@@ -11,6 +11,7 @@ int main(){
 	std::cout << "Please, choose what you want to do : " << '\n';
 	std::cout << "1. Generate password" << '\n';
 	std::cout << "2. Quit" << '\n';
+	std::cout << "Your choice : ";
 	std::cin >> choice;
 	switch (choice){
 		case 1:
