@@ -36,5 +36,6 @@ void generate_pass(Options password_settings){
 		int index = distrib(gen);
 		password+= characters[index];
 	}
+	// We inform here the result of the password generation
 	std::cout << "Your password is : " << password << '\n';
 }

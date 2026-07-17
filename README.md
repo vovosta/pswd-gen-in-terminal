@@ -12,6 +12,12 @@ The goal of this project is to improve my C++ programming skills by progressivel
 * Optional lowercase letters
 * Optional numbers
 * Optional special characters
+* Password analyzer
+* Entropy calculation
+
+## Future features
+
+I'll maybe add in the future others features, such ass pass-phrase generation.
 
 ## Run
 
