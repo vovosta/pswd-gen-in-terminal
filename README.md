@@ -23,7 +23,7 @@ I'll maybe add in the future others features, such ass pass-phrase generation.
 
 To run the project you must compile in the root file of the project with the following command : 
 ``
-g++ -Wall -Wextra -std=c++17 main.cpp options.cpp password.cpp -o password-gen
+g++ -Wall -Wextra -std=c++17 main.cpp password.cpp options.cpp analyzer.cpp -o password-gen
 ``
 
 Then you can run the application with :
@@ -82,20 +82,7 @@ Include symbols? (y/n)
 
 ---
 
-### Step 5 — Generate Multiple Passwords
-
-Generate several passwords at once.
-
-Example:
-
-```text
-How many passwords?
-5
-```
-
----
-
-### Step 6 — Ensure Strong Passwords
+### Step 5 — Ensure Strong Passwords
 
 Make sure every generated password contains at least:
 
@@ -106,7 +93,7 @@ Make sure every generated password contains at least:
 
 ---
 
-### Step 7 — Password Strength Indicator
+### Step 6 — Password Strength Indicator
 
 Display whether the generated password is:
 
@@ -118,7 +105,7 @@ Display whether the generated password is:
 
 ## Future Ideas
 
-* Save generated passwords to a file
+* Save generated passwords to an ecrypted file
 * Password history
 * Colored terminal output
 * Clipboard support
